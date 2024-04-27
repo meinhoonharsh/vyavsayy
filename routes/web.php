@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-Route::domain('{user_name}.vyaparapp.test')->group(function () {
+Route::domain('{user_name}.vyapar.me')->group(function () {
     Route::get('/', function ($user_name) {
         return "Hello $user_name!";
     });
